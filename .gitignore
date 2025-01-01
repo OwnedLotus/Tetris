@@ -1,3 +1,13 @@
+_deps/
+CMakeFiles/
+
+*.cmake
+Main
+CMakeCache.txt
+*.tcl
+MakeFile
+.env
+
 # Prerequisites
 *.d
 
