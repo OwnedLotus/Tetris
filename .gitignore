@@ -5,7 +5,7 @@ CMakeFiles/
 Main
 CMakeCache.txt
 *.tcl
-MakeFile
+Makefile
 .env
 
 # Prerequisites
