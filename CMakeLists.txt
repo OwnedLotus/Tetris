@@ -17,6 +17,6 @@ set(CMAKE_C_FLAGS "${CMAKE_CXX_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}")
 
 include_directories(src)
 
-add_executable(Main src/main.c src/tetris/block.c src/tetris/manager.c src/tetris/piece.c)
+add_executable(Main src/main.cpp src/tetris/block.cpp src/tetris/manager.cpp src/tetris/piece.cpp)
 
 target_link_libraries(Main PUBLIC raylib)
